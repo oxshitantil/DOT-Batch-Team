@@ -1,0 +1,53 @@
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  * {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .nav {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .profile {
+    border-style: solid ;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: black;
+    
+
+  }
+
+.profile1 {
+  padding: 15px;
+}
