@@ -23,11 +23,7 @@ a:link {
     text-decoration: none;
   }
   
-  * {
-    background-color: rgb(255, 255, 255);
-    padding: 0px;
-    margin: 0px;
-  }
+
   
   .nav {
     border-style: solid;
@@ -43,11 +39,14 @@ a:link {
     padding: 5px;
     margin: 5px;
     text-align: center;
-    background-color: black;
+  
     
 
   }
 
 .profile1 {
-  padding: 15px;
+  border-style: solid ;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
 }
