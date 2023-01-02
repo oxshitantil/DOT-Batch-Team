@@ -1,0 +1,7 @@
+  
+    git add -A 
+    git commit -m "add any message here"
+    git push 
+
+    when you starting to write code 
+    git pull 
