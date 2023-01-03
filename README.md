@@ -1,2 +1,2 @@
 # DOT-Batch
-This repository for web developer course
+This repository is for web developers
