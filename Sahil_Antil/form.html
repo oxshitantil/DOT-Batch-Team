@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="Backend" method="get" class="Design-Part">
+      <fieldset>
+        <legend><h4>Form</h4></legend>
+        <fieldset>
+          <div style="text-align: center">
+            <label for="site-search">Search the site :-</label>
+            <input type="search" id="site-search" name="q" />
+
+            <button>Search</button>
+          </div>
+        </fieldset>
+        <br />
+        <div class="Design-Part">
+          <label for="firstName">First Name :- </label>
+          <br />
+
+          <input
+            type="text"
+            name="Backend"
+            id="firstName"
+            required="required"
+            size="23"
+          />
+        </div>
+        <br />
+        <div class="Design-Part">
+          <label for="lastName">Last Name :- </label>
+          <br />
+          <input
+            type="text"
+            name="Backend"
+            id="lastName"
+            required="required"
+            size="23"
+          />
+        </div>
+        <br />
+        <div class="Design-Part">
+          <label for="password">Password :- </label>
+          <br />
+          <input
+            type="password"
+            name="Backend"
+            id="password"
+            required="required"
+            size="23"
+          />
+        </div>
+        <br />
+
+        <fieldset>
+          <legend>Skill</legend>
+
+          <div>
+            <input type="checkbox" id="HTML" name="scales" checked />
+            <label for="HTML">HTML</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">CSS</label>
+          </div>
+        </fieldset>
+
+        <br />
+
+        <div>
+          <label for="color">Color :-</label>
+
+          <br />
+
+          <input type="color" id="color" name="Color" value="" />
+        </div>
+        <br />
+
+        <div>
+          <label for="Calender">Calender :- </label>
+          <br />
+
+          <input
+            type="date"
+            id="Calender"
+            name="trip-start"
+            value="2013-01-03"
+            min="1999-01-01"
+            max="2100-01-01"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="email">Enter your email :-</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            pattern=".+@globex\.com"
+            size="23"
+            required
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="file">Choose a profile picture :-</label>
+          <br />
+          <input
+            type="file"
+            id="file"
+            name="file"
+            accept="image/png, image/jpeg"
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="start">Start month :-</label>
+          <br />
+          <input
+            type="month"
+            id="start"
+            name="start"
+            min="2025-01"
+            value="2025-12"
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="tentacles">Number of tentacles (0-100) :-</label>
+          <br />
+
+          <input
+            type="number"
+            id="tentacles"
+            name="tentacles"
+            min="10"
+            max="100"
+          />
+        </div>
+        <br />
+
+        <fieldset>
+          <legend>Select a maintenance drone:</legend>
+
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Huey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Dewey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="louie" name="drone" value="louie" />
+            <label for="louie">Louie</label>
+          </div>
+        </fieldset>
+
+        <br />
+
+        <div>
+          <p>Audio settings :-</p>
+
+          <div>
+            <input type="range" id="volume" name="volume" min="0" max="11" />
+            <label for="volume">Volume</label>
+          </div>
+
+          <div>
+            <input
+              type="range"
+              id="cowbell"
+              name="cowbell"
+              min="0"
+              max="100"
+              value="90"
+              step="10"
+            />
+            <label for="cowbell">Cowbell</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="phone">Enter your phone number :-</label>
+          <br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+
+          <small>Format: 123-456-7890</small>
+        </div>
+
+        <br />
+        <div>
+          <label for="name">Name (4 to 8 characters) :-</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            minlength="4"
+            maxlength="8"
+            size="20"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="appt">Choose a time for your meeting :-</label>
+          <br />
+          <input
+            type="time"
+            id="appt"
+            name="appt"
+            min="09:00"
+            max="18:00"
+            required
+          />
+
+          <small>Office hours are 9am to 6pm</small>
+        </div>
+        <br />
+        <div>
+          <label for="url">Enter an https:// URL :-</label>
+          <br />
+          <input
+            type="url"
+            name="url"
+            id="url"
+            placeholder="https://example.com"
+            pattern="https://.*"
+            size="30"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="week">Choose a week in May or June :-</label>
+          <br />
+          <input
+            type="week"
+            name="week"
+            id="camp-week"
+            min="2018-W18"
+            max="2018-W26"
+            required
+          />
+        </div>
+        <br />
+        <div style="text-align: center">
+          <input class="Design-Part" type="button" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
