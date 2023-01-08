@@ -1,52 +1,98 @@
-
-/* unvisited link */
-a:link {
+nav {
     color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-
-  
-  .nav {
-    border-style: solid;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
     text-align: center;
-  }
-  
-  .profile {
-    border-style: solid ;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-  
-    
-
-  }
-
-.profile1 {
-  border-style: solid ;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+   
 }
+
+.img {
+    background-image: url(./uni.jpg);
+    padding-bottom:250px ;
+    padding-top: 250px;
+    background-size: cover;
+    color: aliceblue;
+    opacity: 0.8;
+   
+}
+
+
+
+
+
+body {
+    background-color: rgb(254, 144, 0);
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.border {
+
+border: 5px groove crimson ;
+border-radius: 20px;
+}
+
+
+.body {
+   
+    background-image: url(./doraemon.png);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+    
+}
+
+
+a:link {
+    background-color: rgb(17, 255, 0);
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 3px solid black;
+  }
+  
+  a:visited {
+  
+    background-color: rgb(243, 3, 3);
+  }
+  
+  a:hover {
+   background-color: rgb(3, 243, 239);
+  }
+  
+  a:active {
+    background-color: rgb(224, 0, 254);
+  } 
+
+  ul > li {
+    list-style-type: square;
+  }
+
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
