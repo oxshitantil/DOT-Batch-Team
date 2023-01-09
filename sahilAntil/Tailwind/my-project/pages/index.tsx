@@ -124,12 +124,6 @@ export default function Home() {
 <div className="container mx-auto bg-lime-700 text-white">
 
 <div>
-<<<<<<< HEAD
-<h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <p>qwerty</p>
-=======
   <iframe className=" aspect-video ..." src="https://www.youtube-nocookie.com/embed/K1raAUE7t-c" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
 </div>
@@ -169,7 +163,6 @@ export default function Home() {
 </div>
 
 </div>
->>>>>>> 0e57d44dca3aa7c5f34bb023ba101ba028ac3aa5
 </div>
 
     </>
