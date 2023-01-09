@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'poppins', sans-serif; 
+    /* font-family: cursive; */
+    margin: 0px; 
+} 
+.container{
+    margin: auto;
+    width: 90%;
+}
+.center{
+    padding-top: 1rem;
+    text-align: center;
+}
+#top{ 
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=996&t=st=1673207215~exp=1673207815~hmac=8484c1dff1effca70994c0c04fe575d6a76d092c7f556d833fdb62ec0081de08);
+    font-family: cursive; 
+    
+} 
+#pic{  
+    text-align: center;  
+    display: inline-block;
+    width: 40%;
+    
+}
+#right{
+    display: inline-block; 
+    width: 50%; 
+}
+#goto{
+    padding-top: 8rem;
+    float: right;
+     width: 50%;  
+}
+#goto ul li{
+    list-style: none;
+    width: 9rem;
+    text-align: center;
+    padding: 5px;  
+    background-color: rgba(227, 227, 227, 0.351);
+    border-radius: 0.75rem;
+    margin: 0.25rem; 
+    border-bottom: 3.1px solid rgb(0, 208, 255);
+    
+}
+#goto ul li:hover{
+    background-color: rgba(0, 208, 255, 0.485);
+    
+    
+}
+#goto ul li a{
+    text-decoration: none;
+    color: black;
+}
+#details{ 
+    float: right;
+    /* border: 1px solid red; */
+    width: 60%; 
+    height: 50%;
+    margin-right: 20rem;
+} 
+#left{
+    float: right;
+    
+}
+img{
+    width: 20rem;
+}
+.bio{
+    border-left: 3px solid rgb(0, 208, 255); 
+    padding: 1rem;
+}
+#box{
+    box-shadow: 1px 1px 11px rgba(0, 208, 255, 0.485);
+    
+}
+#para{
+    display: inline-block;
+    width: 60%;
+}
+#bio_img{
+    /* display: inline-block; */
+    width: 30%;
+    float: right;
+    margin:auto;
+
+}
+.list{
+    background-color: rgba(0, 164, 246, 0.203);
+    border-left: 3.7px solid rgb(0, 208, 255);
+    padding: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+.images{
+    width: 30rem;
+    margin: 0.5rem 6rem;
+    box-shadow: 1px 1px 11px rgb(51, 51, 51);
+    border-radius: 1.2rem;
+}
+footer{
+    background-color: black;
+    height: 5rem;
+    color: white;
+}
+footer p{
+    text-align: center; 
+    padding-top:0.1rem;
+}
