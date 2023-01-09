@@ -119,17 +119,50 @@ export default function Home() {
         </div>
       </main> */}
 
+<div className="bg-black">
 
+<div className="container mx-auto bg-lime-700 text-white">
 
 <div>
+  <iframe className=" aspect-video ..." src="https://www.youtube-nocookie.com/embed/K1raAUE7t-c" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
-<h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+</div>
+
+<div className="columns-3 ...">
+  <img className="w-full aspect-video ..." src="pages\photo\coo.jpg" alt="photo not working" />
+  <img className="w-full aspect-square ..." src="public\photo\dsa.jpg" alt="photo not working" />
+  <img className="w-full aspect-square ..." src="pages\photo\webd.jpg" alt="photo not working" />
 
 
+</div>
 
+<div className="columns-2">
+  <p>Well, let me tell you something, ...</p>
+  <p >Sure, go ahead, laugh...</p>
+  <p className="break-after-column">Maybe we can live without...</p>
+  <p>Look. If you think this is...</p>
+</div>
 
+<div>
+<span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+  Hello World
+  <br />
+  Hello World
+</span>
+<br />
+<span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+  Hello World Name
+  <br />
+  Hello World Name
+</span>
+</div>
+
+<div className="box-border h-32 w-32 p-4 border-4 ...">
+  
+  <h1>hello world</h1>
+</div>
+
+</div>
 </div>
 
     </>
