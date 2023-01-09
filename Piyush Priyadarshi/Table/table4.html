@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid rgb(255, 149, 149);
+            border-collapse: collapse;
+            background-color: rgb(255, 255, 153);
+            margin: 10px;
+            padding: 5px;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+    <table width="600">
+        <tr>
+            <th colspan="3">Purchase Order:987654321</th>
+            <th colspan="2">TutorialBrain- 10th Oct 2020</th>
+        </tr>
+        <tr>
+            <td colspan="2"> <b>Vendor:</b>
+                <pre>ABC XYZ ltd. 
+Dummy Street 
+Building 123
+HAZARIBAGH,JHARKHAND,825301
+                    </pre>
+            </td>
+            <td colspan="3"> <b>SHIP TO:</b>
+                <pre>MS DHONI 
+WILSON GARDEN
+SOUTHEAST BLOCK,RANCHI-834001
+                    </pre>
+            </td>  
+        </tr>
+        <tr>
+            <th>Qty.</th>
+            <th>Item Code.</th>
+            <th>Description</th>
+            <th>Unit Price</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>IABCDE</td>
+            <td>Pencils</td>
+            <td>20.00</td>
+        </tr>
+        <tr>
+            <td>1000</td>
+            <td>IN877</td>
+            <td>Notebooks</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td>500</td>
+            <td>IP8675</td>
+            <td>Pens</td>
+            <td>70.00</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>190.00</td>
+        </tr>
+        <tr>
+            <td colspan="2" ><b>GST</b></td>
+            <td>5%</td>
+            <td>9.50</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Grand total</b></td>
+            <td> $199.50</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
