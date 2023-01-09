@@ -1,14 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HelloWOrld</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="images\favicon-32x32.png">
+  <title>NFT Challenge</title>
+  <style>
+    body {
+      background-color: rgb(21, 39, 63);
+    }
+
+    /* span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } */
+
+    h1 {
+      /* background-color: black; */
+      font-size: xxx-large;
+      margin-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .topic {
+      color: rgb(111, 104, 104);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      height: 400px;
+      width: 400px;
+      border-radius: 16px;
+      background-image: url("images/image-equilibrium.jpg");
+    }
+
+    .name {
+      color: rgb(0,255,248);
+      font-weight: bolder;
+      /* padding-left: 10px; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 19px;
+      /* display: inline;
+      align-items: center;
+      justify-content: space-between; */
+      padding-bottom: 20px;
+      /* display: block; */
+    }
+
+    .time{
+      color: rgb(136,171,215);
+      font-weight: bolder;
+      /* padding-left: 10px; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 19px;
+      /* display: inline;
+      align-items: center; */
+      /* justify-content: space-between; */
+      padding-bottom: 20px;
+      /* display: block; */
+    }
+
+    figure {
+      border: 1px solid rgb(13, 26, 45);
+      display: grid;
+      grid-template-rows: max-content 25px 1fr;
+      border-radius: 25px;
+      padding-top: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 20px;
+      margin: 10px;
+      background-color: rgb(13, 26, 45);
+      box-shadow: 4px 10px 20px rgb(12,23,41);
+    }
+
+    .price {
+      color: darkslategray;
+      font-size: 22px;
+      font-weight: bolder;
+    }
+
+    figcaption {
+      font-family: 'Roobert', sans-serif;
+      font-family: 'Rubik', sans-serif !important;
+      color: whitesmoke;
+      font-size: 26px;
+      /* padding-left: 7px; */
+      padding-top: 20px;
+    }
+
+    .fig {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 70px;
+    }
+    p{
+      font-size: 24px;
+      color: grey;
+      /* padding-left: 5px; */
+    }
+    hr{
+      width: 390px;
+    }
+    .avimg{
+      border-radius: 100px;
+      height: 60px;
+      width: 60px;
+      border: 1px solid white;
+    }
+    .av{
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .cap{
+      color: grey;
+      font-size: large;
+    }
+    .name2{
+      color: whitesmoke;
+      font: large;
+    }
+    figure:hover,figcaption:hover,.name2:hover{
+      color: rgb(0,255,248);
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello WOrld</h1>
-    <hr>
-    <p>This is Paragrah</p>
+  <div class="fig">
+    <figure>
+      <img src="images/image-equilibrium.jpg" alt="" srcset="">
+      <figcaption><strong>Equilibrium #3429</strong></figcaption>
+      <br>
+      <p>Our Equilibrium collection promotes <br>balance and calm</p>
+      <br>
+      <span class="name">
+        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+        0.041 ETH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="time"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+          3 days left</span>
+      </span>
+      <hr>
+      <span class="av">
+      <img  class="avimg" src="images/image-avatar.png" alt="image-avatar"> &nbsp; &nbsp; &nbsp; <span class="cap">Creation of</span> <span class="name2">&nbsp; Jules Wyvern</span>
+    </span>
+    </figure>
+  </div>
 </body>
+
 </html>
