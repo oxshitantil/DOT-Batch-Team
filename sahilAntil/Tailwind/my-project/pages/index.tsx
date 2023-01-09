@@ -123,7 +123,7 @@ export default function Home() {
 
 <div>
 
-  <h1>This Next.js</h1>
+<h1>Hello world</h1>
 
 
 
