@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background-color: antiquewhite;
+    /* width: 200vh; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    border-bottom-left-radius:30px ;
+}
+
+.mug{
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.head1{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: grey;
+}
+
+.desc{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.head2{
+    color: black;
+    font-family: 'Archivo Black', sans-serif;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.para{
+    color: grey;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.amount{
+    padding-top: 25px;
+    word-spacing: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
+.price{
+    font-family: 'Archivo Black', sans-serif;
+    color: green;
+    font-size: 30px;
+}
+
+button{
+    background-color: green;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.bttn{
+    padding-top: 20px;
+}
+
+.btn{
+    padding: 10px 10px 10px 10px;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+}
