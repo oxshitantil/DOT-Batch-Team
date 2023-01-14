@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        p {
+            font-size: 50px;
+            /* text-shadow: 6px 7px 5px red; */
+            text-shadow: 5px 6px 4px red, 10px 8px 3px green;  
+        }
+        .box1 {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: linear-gradient(red, green, blue);
+            box-shadow: 20px 40px 20px;
+            color: rgb(255, 0, 247);
+            margin: 50px;
+      
+        }
+        .box2 {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: linear-gradient(red, green, blue);
+            box-shadow: 20px 40px 20px rgb(246, 255, 0);
+            color: rgb(0, 0, 0);
+            margin: 50px;
+      
+        }
+        .box3 {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: linear-gradient(red, green, blue);
+            box-shadow: 20px 40px 20px rgb(246, 255, 0), 40px 60px 20px red;
+            color: rgb(0, 0, 0);
+            margin: 80px;
+      
+        }
+        .box4 {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: linear-gradient(red, green, blue);
+            box-shadow: 20px 40px 20px rgb(246, 255, 0), 40px 60px 20px red, 60px 80px 40px rgb(0, 17, 255);
+            color: rgb(0, 0, 0);
+            margin: 100px;
+      
+        }
+        .box5 {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: linear-gradient(red, green, blue);
+            box-shadow: -20px -40px 20px rgb(246, 255, 0), -40px -60px 20px red, -60px -80px 40px rgb(0, 17, 255);
+            color: rgb(0, 0, 0);
+            margin: 250px;
+      
+        }
+    </style>
+</head>
+<body>
+    <h1>Shadow</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure, quia magni et corrupti rerum reprehenderit amet porro nam obcaecati!</p>
+
+    <div class="box1">
+        <h1>Text color apply for shadow</h1>
+
+    </div>
+    <div class="box2">
+        <h1>Custom Shadow Color</h1>
+
+    </div>
+    <div class="box3">
+        <h1>Double Shadow Color</h1>
+
+    </div>
+    <div class="box4">
+        <h1>Triple Shadow Color</h1>
+
+    </div>
+    <div class="box5">
+        <h1>Shadow direction change</h1>
+
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt magni nisi optio aliquam, nulla nihil laboriosam modi nostrum sequi fugiat!</p>
+
+</body>
+</html>
