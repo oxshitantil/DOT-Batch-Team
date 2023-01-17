@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+    <link rel="shortcut icon" href="mario.ico" type="image/x-icon">
+    <title>Mario House</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+      }
+      .grid-container {
+        max-height: 100vh;
+        display: grid;
+        grid-template-columns: 250px auto 250px;
+        /* grid-template-columns: repeat(2, 1fr); */
+        /* grid-template-columns:100px repeat(2, 1fr) 200px; */
+        /* grid-template-rows: 100px 100px 100px; */
+        /* grid-template-rows: repeat(3, 1fr); */
+        grid-template-rows: 50px 647px 250px;
+        
+      }
+      #grid-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: aqua;
+        display: flex;
+     justify-content: space-between;
+    align-items: center;
+   font-size: larger;
+    
+  
+      }
+      #grid-2 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+        background-color: deeppink;
+      }
+      #grid-3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+        background-color: blue;
+      }
+      #grid-4 {
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        background-color: rgb(0, 255, 68);
+      }
+      #grid-5 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        background-color: crimson;
+      }
+
+      .header ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+  
+       
+      }
+
+      .navbar ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        
+      }
+
+      .search-bar input {
+        font-size: 25px;
+        width: 500px;
+        border: 1px solid red;
+        border-radius: 50px;
+        margin: 10px;
+      }
+
+      .search-bar button {
+        width: 150px;
+        font-size: 25px;
+        border-radius: 50px;
+      }
+ 
+
+
+  
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item" id="grid-1">
+        <div class="header">
+          <ul>
+            <li>
+                <lord-icon
+    src="https://cdn.lordicon.com/etqbfrgp.json"
+    trigger="loop"
+    delay="2000"
+    style="width:50px;height:50px">
+</lord-icon>
+            </li>
+            <li>Mario House</li>
+          </ul>
+        </div>
+
+        <div class="search-bar">
+          <input type="text">
+          <button>Search</button>
+        </div>
+
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+              <li>Help</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="grid-item" id="grid-2">grid-2</div>
+      <div class="grid-item" id="grid-3">grid-3</div>
+
+
+      <div class="grid-item" id="grid-4">grid-4</div>
+      <div class="grid-item" id="grid-5">grid-5</div>
+      <!-- <div class="grid-item">grid-5</div>
+      <div class="grid-item">grid-6</div>
+      <div class="grid-item">grid-7</div>
+      <div class="grid-item">grid-8</div>
+      <div class="grid-item">grid-9</div>
+      <div class="grid-item">grid-10</div> -->
+    </div>
+  </body>
+</html>
