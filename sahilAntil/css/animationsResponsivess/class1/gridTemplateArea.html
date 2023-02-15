@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Template Area</title>
+    <style>
+      .container {
+        height: 700px;
+        border: 1px solid red;
+        background-color: yellow;
+        display: grid;
+        grid-template-rows:30px 150px 400px 30px;
+        grid-template-columns:400px;
+        gap: 10px;
+        grid-template-areas: 
+        "hd"
+        "side"
+        "main"
+        "ft";
+
+        /* grid-template-columns: 200px 400px;
+        grid-template-rows: 30px 500px 30px;
+
+        grid-template-areas: 
+        "hd hd"
+        "side main"
+        "ft ft"; */
+
+        /* grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px ;
+
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "side side side main main main main main"
+        "ft ft ft ft ft ft ft ft"; */
+      }
+      .box {
+        border: 1px solid green;
+        background-color: aqua;
+        /* height: 100px;
+            width: 100px; */
+      }
+      #header {
+        grid-area: hd;
+      }
+      #footer {
+        grid-area: ft;
+      }
+      #sidebar {
+        grid-area: side;
+      }
+      #content {
+        grid-area: main;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="header">Header</div>
+      <div class="box" id="sidebar">Sidebar</div>
+      <div class="box" id="content">Content</div>
+      <div class="box" id="footer">Footer</div>
+    </div>
+  </body>
+</html>

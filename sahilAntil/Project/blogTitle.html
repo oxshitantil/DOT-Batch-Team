@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Title</title>
+    <style>
+      .grid-container {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+
+        gap: 10px;
+      }
+      .grid {
+        border: 2px solid black;
+      }
+      #grid-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 30px;
+      }
+      #grid-2 {
+        grid-row-start: 2;
+        grid-row-end: 5;
+      }
+
+      #grid-1 ul {
+        display: flex;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid" id="grid-1">
+        <ul>
+          <li>Subscribe</li>
+          <li>Blog Title</li>
+          <li>search logo</li>
+        </ul>
+      </div>
+      <div class="grid" id="grid-2">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          deleniti ut magni autem nobis omnis inventore eius porro aut odit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          labore enim earum. Quos, aliquam dolore! Eum incidunt quas vel
+          provident.
+        </p>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          deleniti ut magni autem nobis omnis inventore eius porro aut odit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          labore enim earum. Quos, aliquam dolore! Eum incidunt quas vel
+          provident.
+        </p>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          deleniti ut magni autem nobis omnis inventore eius porro aut odit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          labore enim earum. Quos, aliquam dolore! Eum incidunt quas vel
+          provident.
+        </p>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          deleniti ut magni autem nobis omnis inventore eius porro aut odit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          labore enim earum. Quos, aliquam dolore! Eum incidunt quas vel
+          provident.
+        </p>
+      </div>
+      <div class="grid" id="grid-3">
+        <h3>About</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+          veritatis, voluptates obcaecati quidem ipsa fugiat necessitatibus
+          soluta nihil eligendi mollitia!
+        </p>
+      </div>
+      <div class="grid" id="grid-4">
+        <h3>Archives</h3>
+        <ul>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+          <li>abc</li>
+        </ul>
+      </div>
+      <div class="grid" id="grid-5">
+        <h3>Elsewhere</h3>
+        <ul>
+          <li>github</li>
+          <li>linkedin</li>
+          <li>discord</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
